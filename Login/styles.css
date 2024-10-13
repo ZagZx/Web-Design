@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 28, 28);
+}
+
+.kuadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 200px;
+    
+    background-color: rgb(58, 56, 56);
+    border-radius: 5px;
+    border-top: 3px solid black;
+    border-left: 3px solid darkblue;
+    box-shadow: 0 0 2px 2px;
+    text-align: center;
+    position: relative;
+}
+.meio > *{
+    position: relative;
+    margin-top: 2%;
+}
+h1{
+    color: white;
+}
+input{
+    outline: 0;
+    height: 30px;
+    border-radius: 15px;
+    border: 0;
+    margin-top: 5%;
+    text-align: center;
+}
+button{
+    background-color: darkblue;
+    color: white;
+    border: 0;
+    
+    height: 30px;
+    width: 100px;
+    border-radius: 10%;
+    margin-top: 2%;
+}
+button:hover{
+    background-color: rgb(6, 6, 187);
+}
+
+.perfil{
+    position: absolute;
+    left: -40px;
+    top: -40px;
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-color: dimgray;
+    border: 2px solid darkblue;
+    box-shadow: 0 0 1px 1px black;
+}

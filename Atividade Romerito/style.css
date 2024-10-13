@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.links > *{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.links > *:hover{
+    border-bottom: 4px solid currentColor;
+    box-sizing: border-box;
+}
+.links{
+    padding: 8px 10px 8px 10px;
+    border-bottom: 4px solid white;
+    
+    #globocom{
+        color: rgb(91, 91, 202);
+    }
+    #g1{
+        color: darkred;
+    }
+    #ge{
+        color: green;
+    }
+    #gshow{
+        color: darkorange;
+    }
+    #globoplay{
+        color: red;
+    }
+    #jornal{
+        color: rgb(45, 45, 99);
+    }
+    #globo{
+        color: darkblue;
+    }
+}
+.menu{
+    position: relative;
+    background-color: rgb(189, 12, 12);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 80px;
+    #g1{
+        font-size: 50px;
+        position: absolute;
+        top: 10%;
+        left: 47%;
+    }
+    #burg{
+        float: left;
+        position: relative;
+        top: 39%;
+    }
+
+    
+}
+.pesquisa{
+    float: right;
+
+    height: 30px;
+    border:none;
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+
+    margin-right: 8px;
+    position: relative;
+    top: 30%;
+
+    background: rgb(155, 0, 0) url("./search.png") no-repeat;
+    background-size: 30px;
+    padding-left: 35px;
+}
+
+.menu > img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    color: white;
+}
+
+.menuburg{
+    height: 3px;
+    width: 30px;
+    
+    background-color: white;
+    margin: 4px;
+    border-radius:10px;
+    
+}
+
+.papaiBurg{
+    float: left;
+    margin-left: 8px;
+    position: relative;
+    
+    transform: translate(0, 107%);
+    
+}
+
+.papaiBolinhas{
+    float: right;
+    margin-right: 8px;
+    
+}
+.filhoDoPapaiBolinhas{
+    height: 4px;
+    margin-bottom: 4px;
+}
+.bolinha{
+    display: inline-block;
+    background-color: rgb(189, 12, 12);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+#eleicao{
+    color: rgb(189, 12, 12);
+    float: right;
+    margin-right: 8px;
+    position: relative;
+    top: 10px;
+}
