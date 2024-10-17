@@ -1,2 +1,2 @@
 # Web-Design
-<a target="__blank">https://webdesignstudying.netlify.app<a/>
+<a target="_blank">https://webdesignstudying.netlify.app<a/>
