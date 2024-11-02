@@ -1,0 +1,166 @@
+.tudo{
+    display: flex;
+
+}
+
+.container{
+    
+    height: 530px;
+    width: 550px;
+    background-color: #f6f8fc;
+    border: 1px solid #b1b1b1;
+    border-radius: 8px;
+    /* copiei do site do gmail v */
+    box-shadow: 0 -8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+    /* copiei do site do gmail ^ */
+}
+
+.painel{
+    background-color: #f2f2f2;
+    height: 45px;
+    
+    border-start-start-radius: inherit;
+    border-start-end-radius: inherit;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span{
+        margin-left: 15px;
+        text-shadow: 0.3px 0.3px 0.5px blue;
+    }
+    > div{
+        margin-right: 15px;
+    }
+    
+
+
+}
+
+.icon:hover{
+    background-color: #dde3e8;
+    cursor: pointer;
+    border-radius: 1px;
+}
+.destinatario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    margin: 0 15px 0 15px;
+    
+    
+}
+
+.spanzinho{
+    color: #444746;
+}
+.spanzinho:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.assunto{
+    display: flex;
+    height: 45px;
+    align-items: center;
+}
+.assunto > *{
+    margin-left: 15px;
+}
+
+.destAssunto{
+    height: 90%;
+    width: 80%;
+    outline: none;
+    border: none;
+    font-size: 1em;
+}
+
+hr{
+    margin: 0;
+    margin-left: 2.5%;
+    width: 95%;
+}
+
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    /* background-color: rgb(172, 128, 128); */
+}
+.onlyflex{
+    display: flex;
+}
+.centerThis{
+    display: flex;
+    align-items: center;
+    img{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #more{
+        margin-left: 10px;
+    }
+    #lixo{
+        margin-right: 15px;
+        margin-left: 0;
+    }
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 0;
+
+    width: 75px;
+
+    background-color: #0a56cf;
+    margin-left: 15px;
+    
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    span{
+        color: white;
+    }
+    
+}
+.botao:hover{
+    background-color: #306ac7;
+    +div{
+        background-color: #306ac7;
+    }
+}
+.setinha:hover{
+    background-color: #306ac7;
+}
+
+.divisao{
+    width: 1px;
+    background-color: rgb(88, 87, 87);
+    order: 1;
+}
+
+.setinha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+
+    width: 30px;
+    background-color: #0a56cf;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.flexDiv{
+    display: flex;
+    cursor: pointer;
+    height: 35px;
+}
+
+.conteudo{ 
+    height: 64%;
+}
