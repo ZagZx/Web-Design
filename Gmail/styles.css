@@ -43,6 +43,9 @@
     border-radius: 1px;
 }
 .destinatario{
+    > *{
+        background-color: inherit;
+    }
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,12 +64,14 @@
 }
 
 .assunto{
+
     display: flex;
     height: 45px;
     align-items: center;
 }
 .assunto > *{
     margin-left: 15px;
+    background-color: inherit;
 }
 
 .destAssunto{
@@ -171,6 +176,7 @@ hr{
 }
 
 #sendEmail{
+    background-color: inherit;
     resize: none;
     width: 100%;
     border: none;
