@@ -8,7 +8,9 @@ body{
     justify-content: center;
 }
 a{
-    display: block;
     color: white;
     margin: 5px;
+}
+span{
+    color:  rgb(255, 145, 0);
 }
