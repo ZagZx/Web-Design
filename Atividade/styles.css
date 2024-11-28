@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14%;
+    
+    background-color: #dca900;
+    h1{
+        color: white;
+    }
+}
+.menu{
+    display: flex;
+    height: 8%;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: lightgray;
+    
+    a{
+        align-content: center;
+        text-align: center;
+        text-decoration: none;
+
+        color: #dca900;
+        background-color: white;
+        height: 80%;
+        width: 19%;
+        border: 1px solid black;
+    }
+}
+.content{
+    height: 72%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5%;
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        height: 93%;
+        width: 24%;
+        div{
+            display: block;
+            width: 92%;
+            height: 98;
+            background-color: beige;
+            img{
+                width: 100%;
+            }
+            p{
+                margin: 0 3%;
+            }
+            a{
+                display: block;
+                text-decoration: none;
+                color: black;
+                background-color: #eaeaea;
+                border: 1px solid black;
+                width: 100%;
+                height: 10%;
+                align-content: center;
+                text-align: center;
+            }
+        }
+    }
+}
+.roda-a-pe{
+    height: 6%;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: #dca900;
+}
