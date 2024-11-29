@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+div{
+    font-size: 1vw;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -50,36 +54,46 @@ body{
     justify-content: center;
     gap: 0.5%;
 
+    
+}
+.fora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 93%;
+    width: 24%;
+    
+}
+.elementos{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:start;
+    width: 92%;
+    height: 93%;
+    
     div{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-        height: 93%;
-        width: 24%;
-        div{
-            display: block;
-            width: 92%;
-            height: 98;
-            background-color: beige;
-            img{
-                width: 100%;
-            }
-            p{
-                margin: 0 3%;
-            }
-            a{
-                display: block;
-                text-decoration: none;
-                color: black;
-                background-color: #eaeaea;
-                border: 1px solid black;
-                width: 100%;
-                height: 10%;
-                align-content: center;
-                text-align: center;
-            }
-        }
+        margin: 5% 3%;
+        text-overflow: clip ellipsis;
+    }
+    img{
+        height: 50%;
+        width: 100%;
+    }
+    a{
+        display: block;
+        text-decoration: none;
+        color: black;
+        background-color: #eaeaea;
+        border: 1px solid black;
+        width: 100%;
+        height: 10%;
+        align-content: center;
+        text-align: center;
+        margin-top: auto;
+    
+        
+        
     }
 }
 .roda-a-pe{
